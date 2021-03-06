@@ -1,4 +1,4 @@
-package com.tsseo.book.springboot.web.dto;
+package com.tsseo.book.springboot.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
