@@ -8,7 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
  *  @EnableJpaAuditing
  *  JPA Auditing 어노테이션들을 모두 활성화할 수 있게끔 함
  */
-@EnableJpaAuditing
+/*  221p
+@EnableJpaAuditing*/
 /**
  *  @SpringBootApplication
  *  해당 어노테이션으로 인해 스프링 부트의 자동 설정, 스프링 Bean 읽기와 생성을 모두 자동으로 설정됨
