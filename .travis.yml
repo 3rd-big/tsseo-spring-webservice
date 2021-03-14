@@ -23,7 +23,7 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r tsseo-spring-webservice
+  - zip -r tsseo-spring-webservice *
   - mkdir -p deploy
   - mv tsseo-spring-webservice.zip deploy/tsseo-spring.webservice.zip
 
